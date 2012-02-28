@@ -27,6 +27,6 @@ TARGET_PREBUILT_KERNEL := device/matsunichi/tc979/kernel
 # Another potential fix for the pinkness
 BOARD_CUSTOM_GRAPHICS:= ../../../device/matsunichi/tc979/recovery/minui/graphics.c
 
-#BOARD_HAS_NO_SELECT_BUTTON := true
+BOARD_HAS_NO_SELECT_BUTTON := true
 # Use this flag if the board has a ext4 partition larger than 2gb
 #BOARD_HAS_LARGE_FILESYSTEM := true
