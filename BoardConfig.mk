@@ -19,6 +19,13 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 350003200
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 1074790400
 BOARD_FLASH_BLOCK_SIZE := 131072
 
+TARGET_USERIMAGES_USE_EXT4 := true
+BOARD_HAS_SDCARD_INTERNAL := true
+
+BOARD_SDCARD_DEVICE_PRIMARY := /dev/block/mmcblk1p1
+BOARD_SDCARD_DEVICE_SECONDARY := /dev/block/mmcblk1
+BOARD_SDEXT_DEVICE := /dev/block/mmcblk1p2
+
 TARGET_PREBUILT_KERNEL := device/matsunichi/tc979/kernel
 
 # Potential fix for color issues, untested leaving it here for now ~jcase
